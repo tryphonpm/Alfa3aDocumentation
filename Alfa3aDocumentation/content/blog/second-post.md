@@ -2,7 +2,7 @@
 title: My second blog post
 description: Ceci est mon premier essai de blog sous Nuxt
 slug: second-post
-img: export_excel_test.png
+img: blog/export_excel_test.png
 ---
 
 <article-image src="blog/export_excel_test.png" alt="Alfa3a Documentation"></article-image>

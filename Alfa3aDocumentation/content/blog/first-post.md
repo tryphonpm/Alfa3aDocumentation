@@ -2,7 +2,7 @@
 title: My first blog post
 description: Ceci est mon premier essai de blog sous Nuxt
 slug: first-post
-img: export_excel_test.png
+img: blog/export_excel_test.png
 ---
 
 

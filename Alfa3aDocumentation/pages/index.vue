@@ -4,7 +4,7 @@
     <div class="home-page">
     <h2>Dernières entrées</h2>
       <div class="articles">
-        <div class="article" v-for="article of articles" :key="article">
+        <div class="article" v-for="(article, index) of articles" :key="index">
             <nuxt-link :to="{name: 'blog-slug', params: {slug: article.slug}}">
 
               <div class="article-inner">
