@@ -1,5 +1,6 @@
 # Alfa3aDocumentation
- 
+### source
+[(5) Build a BLOG Using NUXT JS & The CONTENT module ~ Vue JS Tutorial - YouTube](https://www.youtube.com/watch?v=1SAZMFwYUDE)
 ## install
 ```
 npx create-nuxt-app  Alfa3aDocumentation
