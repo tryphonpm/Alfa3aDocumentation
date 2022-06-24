@@ -2,7 +2,7 @@
 title: My second blog post
 description: Ceci est mon premier essai de blog sous Nuxt
 slug: second-post
-img: export_excel_test.png
+img: alfa3a_cadre_init.png
 ---
 
 
@@ -12,17 +12,27 @@ img: export_excel_test.png
 fbpmoreau@pm.me
 Gitnor1?
 
+***
+
+![Initsdfsdfsdf](../../assets/resources/alfa3a_cadre_init.png)  
+
+<imgCont src="alfa3a_cadre_init.png" alt="An image in my article" /> 
+
+<article-image src="blog/alfa3a_cadre_init.png" alt="complete-kanban-board"></article-image>
+
+***
+
 ##### terminal
 
-git init
-git config --global user.name = "PMOR"
-git config --global user.email = "fbpmoreau@pm.me"
-git config --get remote.origin.url
-git add xxx OU *
-(git status)
-git commit -m "message"
-git log
-git checkout {identififiant log}
+git init  
+git config --global user.name = "PMOR"  
+git config --global user.email = "fbpmoreau@pm.me"  
+git config --get remote.origin.url  
+git add xxx OU *   
+(git status)    
+git commit -m "message"    
+git log  
+git checkout {identififiant log}  
 git checkout main -f
 git branch
 git branch accueil
