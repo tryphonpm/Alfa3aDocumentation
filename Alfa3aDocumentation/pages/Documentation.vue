@@ -11,7 +11,8 @@
                   <h3>{{article.title}}</h3>
                   <p> dir : {{article.dir}} <br>- path :  {{article.path}} <br>- slug :  {{article.slug}} <br>- createdAt :  {{article.createdAt}}</p>
 
-              <img :src="require(`../assets/resources/${article.img}`)" alt="" class="w-1/2">
+              <!-- <img :src="require(`../assets/resources/${article.img}`)" alt="" class="w-1/2"> -->
+              <outline-annotation-icon class="w-8 h-8" />
                 <div class="detail">
 
                   <p>{{article.description}}</p>
