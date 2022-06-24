@@ -1,6 +1,10 @@
 # Alfa3aDocumentation
 ### source
-[(5) Build a BLOG Using NUXT JS & The CONTENT module ~ Vue JS Tutorial - YouTube](https://www.youtube.com/watch?v=1SAZMFwYUDE)
+[(5) Build a BLOG Using NUXT JS & The CONTENT module ~ Vue JS Tutorial - YouTube](https://www.youtube.com/watch?v=1SAZMFwYUDE)  
+
+#### source import images dans .module
+[Working with images in Nuxt Content | Woet Flow](https://woetflow.com/posts/working-with-images-in-nuxt-content/#2-images-inside-the-article-content)
+
 ## install
 ```
 npx create-nuxt-app  Alfa3aDocumentation
