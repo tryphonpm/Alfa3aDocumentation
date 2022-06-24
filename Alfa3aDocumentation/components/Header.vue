@@ -3,6 +3,8 @@
 <div class="title"> Alfa3a Documentation</div>
 <nav>
 <nuxt-link to="/">Home</nuxt-link>
+<nuxt-link to="/documentation">Documentation</nuxt-link>
+
 <nuxt-link to="/about">About</nuxt-link>
 </nav>
 

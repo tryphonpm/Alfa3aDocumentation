@@ -5,11 +5,12 @@
     <h2>Dernières entrées</h2>
       <div class="articles">
         <div class="article" v-for="(article, index) of articles" :key="index">
-            <nuxt-link :to="{name: 'blog-slug', params: {slug: article.slug}}">
+            <nuxt-link :to="{name: 'docs-slug', params: {slug: article.slug}}">
 
               <div class="article-inner">
                   <h3>{{article.title}}</h3>
-                  <p> dir : {{article.dir}} - path :  {{article.path}} - slug :  {{article.slug}} - createdAt :  {{article.createdAt}}</p>
+                  <p> dir : {{article.dir}} <br>- path :  {{article.path}} <br>- slug :  {{article.slug}} <br>- createdAt :  {{article.createdAt}}</p>
+
               <img :src="require(`../assets/resources/${article.img}`)" alt="" class="w-1/2">
                 <div class="detail">
 
@@ -30,20 +31,14 @@
 <script>
 export default {
 async asyncData({ $content, params}){
-  const articles = await $content('blog', params.slug).only(['title', 'description', 'img', 'slug', 'dir', 'createdAt']).fetch();
-  console.log(articles)
+  const articles = await $content('docs/passage', params.slug).only(['title', 'description', 'img', 'slug', 'dir', 'createdAt']).fetch();
   return { articles }
 }
 }
 
 </script>
 
-<style>
-@tailwind base; /* Preflight will be injected here */
-
-@tailwind components;
-
-@tailwind utilities;
+<style scoped>
 
 h1 {
   font-size:32px;
