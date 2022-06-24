@@ -1,5 +1,8 @@
 <template>
+<div class="imgS">
   <img :src="imgSrc()" :alt="alt" class="article-image" />
+</div>
+
 </template>
 
 <script>
@@ -25,3 +28,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.imgS {
+margin-top: 1em;
+margin-bottom: 1em;
+}
+</style>

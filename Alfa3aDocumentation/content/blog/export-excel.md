@@ -6,15 +6,14 @@ img: blog/export_excel_test.png
 ---
 
 # Export Excel pour webdirect
-## ajout de tables
-**setup_export_excel**  
-configurations des exports actifs  
-**setup_export_excel_champs**  
+## Ajout de tables
+table: **setup_export_excel**  
+configurations des exports actifs    
+table: **setup_export_excel_champs**  
 listes des champs accessibles pour chaque export  
 
 <article-image src="blog/export_excel_01.png" alt="Alfa3a Documentation"></article-image>  
-  
-***    
+   
 
 ## Backoffice
 
